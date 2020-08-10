@@ -1,0 +1,116 @@
+
+*{ 
+    box-sizing: border-box; 
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: "Manga Temple Bold";
+    src: url(fonts/mangatb.ttf);
+    font-weight: bold;
+  }
+body{
+    background-image: url("img/Image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+h1.logo{
+    width: 150px;
+    border: 3px solid white;
+    padding: 10px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: white;
+    font-family: "Montserrat";
+    margin-left: 10px;
+    text-transform: capitalize;
+    text-align: center;
+}
+a:hover{
+    background-color:#ffac3b;
+    padding: 5px;
+    border-radius: 25px;
+}
+a:active,a:link,a:visited{
+font-size: 30px;
+letter-spacing: 6px;
+line-height: 75px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-decoration: none;
+padding: 14px 25px;
+
+}
+nav.navbar-items{
+display: inline-block;
+overflow: hidden;
+white-space: nowrap;
+margin-top: 10px;
+margin-left: 45rem;
+margin-right: 20px;
+}
+div.main{
+    display: inline-block;
+    position: relative;
+}
+div.brand-name{
+    letter-spacing: 2px;
+    line-height: 250px;
+    color: #ffac3b;
+    font-weight: bold;
+    font-family: "Manga Temple Bold";
+    text-align: left;
+    margin-left: 45rem;
+    margin-top: 5px;
+    padding: 0%;
+    display: inline-block;
+    overflow: hidden;
+   white-space: nowrap; 
+}
+   
+h1.brand{
+   padding: 0%;
+   font-size: 90px;
+   
+}
+p.description{
+letter-spacing: 6px;
+line-height: 70px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+margin-left: 45rem;
+font-size: 48px;
+display: inline-block;
+width: 80%;
+height: 50%;
+}
+p.avail{
+font-size: 80px;
+letter-spacing: 1px;
+line-height: 445px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+margin-left: 50rem;
+background: url("https://www.onlygfx.com/wp-content/uploads/2017/07/orange-watercolor-brush-stroke-7.png");
+background-repeat: no-repeat;
+padding: 6px 0;
+background-size: 80% 50%;
+background-position: center;
+}
+footer{
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    padding-top: 15px;
+    margin-left: 45rem;
+    text-align: center;
+    word-spacing: 8px;
+}
