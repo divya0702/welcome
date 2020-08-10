@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 230, 230);
+}
+div.panel{
+    display: flex;
+}
+h1.brand-name{
+    color: rgb(114, 63, 93);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    font-size: 80px;
+}
+span{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(186, 151, 206);
+    font-size: 85px;
+    letter-spacing: 5px;
+}
+nav.navbar-items{
+    padding: 5px;
+    color: rgb(186, 151, 206);
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 20px;
+    left: 30rem;
+    text-align: center;
+    float: right;
+}
+ul.nav{
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+li a,li a:visited,li a:link,li a:active{
+    color: rgb(186, 151, 206);
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 25px;
+    letter-spacing: 4px;
+    font-size: 40px;
+  
+}
+li a:hover{
+    background-position: center;
+    background-color: rgb(114, 63, 93);
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+p.recipe{
+    position: relative;
+    top: 50px;
+    left: 75rem;
+}
+p a:link{
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 28px;
+    color: rgb(114, 63, 93);
+}
+p a:hover{
+    background-color: rgb(186, 151, 206);
+    background-position: center;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
+i.fas{
+    size: 10px;
+    background-position: center;
+}
+.section{
+    margin: 0 auto;
+}
+@media screen and (max-width:680px){
+    ul.topnav li:not(:nth-child(1)){
+  display: inline;}
+   ul.topnav li.dropdownicon{
+  display:block;
+  
+  }:not(:nth-child(1)){
+  display: inline;}
+  }
+
