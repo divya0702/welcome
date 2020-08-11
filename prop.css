@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: snow;
+}
+.main h1{
+    text-align: center;
+    color: teal;
+}
+.list-group{
+    text-align: center;
+    display: block;
+    float: center;
+    width: 1000px;
+    height: 500px;
+    padding: 0 0.5em;
+}
